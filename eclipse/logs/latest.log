@@ -1,0 +1,44 @@
+[20:22:23] [main/INFO]: Setting user: Player418
+[20:22:24] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:22:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HardBlocks
+[20:22:32] [Sound Library Loader/INFO]: Sound engine started
+[20:22:32] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[20:22:32] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[20:22:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HardBlocks
+[20:22:33] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:22:33] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:22:34] [Sound Library Loader/INFO]: Sound engine started
+[20:22:56] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[20:22:56] [Server thread/INFO]: Generating keypair
+[20:22:56] [Server thread/INFO]: Converting map!
+[20:22:56] [Server thread/INFO]: Scanning folders...
+[20:22:56] [Server thread/INFO]: Total conversion count is 0
+[20:22:57] [Server thread/INFO]: Preparing start region for level 0
+[20:22:58] [Server thread/INFO]: Preparing spawn area: 8%
+[20:22:59] [Server thread/INFO]: Preparing spawn area: 21%
+[20:23:00] [Server thread/INFO]: Preparing spawn area: 40%
+[20:23:01] [Server thread/INFO]: Preparing spawn area: 61%
+[20:23:02] [Server thread/INFO]: Preparing spawn area: 81%
+[20:23:03] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:23:03] [Server thread/INFO]: Player418[local:E:75f01c71] logged in with entity id 212 at (247.5, 65.0, 245.5)
+[20:23:03] [Server thread/INFO]: Player418 joined the game
+[20:23:07] [Server thread/INFO]: Player418 has just earned the achievement [Taking Inventory]
+[20:23:07] [Client thread/INFO]: [CHAT] Player418 has just earned the achievement [Taking Inventory]
+[20:23:36] [Server thread/INFO]: [Player418: Given [item.null.name] * 1 to Player418]
+[20:23:36] [Client thread/INFO]: [CHAT] Given [item.null.name] * 1 to Player418
+[20:24:02] [Client thread/INFO]: Warning: Clientside chunk ticking took 108 ms
+[20:24:12] [Server thread/INFO]: [Player418: Given [item.null.name] * 64 to Player418]
+[20:24:12] [Client thread/INFO]: [CHAT] Given [item.null.name] * 64 to Player418
+[20:24:18] [Server thread/INFO]: Saving and pausing game...
+[20:24:18] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
+[20:24:18] [Server thread/INFO]: Saving chunks for level 'test'/Nether
+[20:24:18] [Server thread/INFO]: Saving chunks for level 'test'/The End
+[20:24:19] [Client thread/INFO]: Stopping!
+[20:24:19] [Server thread/INFO]: Stopping server
+[20:24:19] [Server thread/INFO]: Saving players
+[20:24:19] [Server thread/INFO]: Saving worlds
+[20:24:19] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
+[20:24:19] [Server thread/INFO]: Saving chunks for level 'test'/Nether
+[20:24:19] [Server thread/INFO]: Saving chunks for level 'test'/The End
+[20:24:20] [Client Shutdown Thread/INFO]: Stopping server
+[20:24:20] [Client Shutdown Thread/INFO]: Saving players

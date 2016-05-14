@@ -1,0 +1,6 @@
+package com.aviallon.hardblocks.reference;
+
+public class Reference {
+	public static final String MOD_ID = "HardBlocks";
+	public static final String MOD_NAME = "HardBlocks";
+}

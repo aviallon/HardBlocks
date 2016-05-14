@@ -1,0 +1,8 @@
+package com.aviallon.hardblocks;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid = "HardBlocks", name = "HardBlocks", version="1.7.10-0.1")
+public class HardBlocks {
+
+}

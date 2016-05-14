@@ -1,0 +1,20 @@
+[
+{
+"modid": "HardBlocks",
+"name": "HardBlocks",
+"description": "Adds creeper-proof, tnt-proof and wither-proof blocks. Actually, it adds hardened blocks in general.",
+"version": "0.1",
+"credits": "Created by aviallon, thanks to Pahimar for helping me get started with modding",
+"logoFile": "",
+"mcversion": "1.7.10",
+"url": "",
+"updateUrl": "",
+"authors": [ "aviallon" ],
+"parent":"",
+"requiredMods": [ "Forge" ],
+"dependencies": [ "mod_MinecraftForge" ],
+"dependants": [],
+"screenshots": [],
+"useDependencyInformation": false
+}
+]﻿

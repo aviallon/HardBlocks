@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.aviallon.hardblocks.proxy;
+
+/**
+ * @author aviallon
+ *
+ */
+public interface IProxy {
+
+}
