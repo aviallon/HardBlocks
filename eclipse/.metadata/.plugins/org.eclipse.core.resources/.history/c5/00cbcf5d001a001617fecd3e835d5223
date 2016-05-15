@@ -1,6 +1,6 @@
 package com.aviallon.hardblocks.init;
 
-import com.aviallon.hardblocks.ItemMapleLeaf;
+import com.aviallon.hardblocks.item.ItemMapleLeaf;
 import com.aviallon.hardblocks.item.ItemHB;
 
 public class ModItems {

@@ -1,7 +1,7 @@
 package com.aviallon.hardblocks.item;
 
+import com.aviallon.hardblocks.creativetab.CreativeTabHB;
 import com.aviallon.hardblocks.reference.Reference;
-
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -11,9 +11,10 @@ import net.minecraft.item.ItemStack;
 public class ItemHB extends Item {
 	public ItemHB(){
 		super();
-		this.maxStackSize = 1;
+        this.setCreativeTab(CreativeTabHB.HB_TAB);
+		//this.maxStackSize = 1;
 		//this.setCreativeTab();
-		this.setNoRepair();
+		//this.setNoRepair();
 	}
 	
 	@Override

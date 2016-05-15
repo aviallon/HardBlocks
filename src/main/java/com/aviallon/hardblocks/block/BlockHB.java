@@ -1,12 +1,12 @@
 package com.aviallon.hardblocks.block;
 
+import com.aviallon.hardblocks.creativetab.CreativeTabHB;
 import com.aviallon.hardblocks.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.creativetab.CreativeTabs;
 
 /**
  * Created by antoineviallon on 15/05/2016.
@@ -14,7 +14,7 @@ import net.minecraft.creativetab.CreativeTabs;
 public class BlockHB extends Block {
     public BlockHB(Material material){
         super(material);
-        this.setCreativeTab(CreativeTabs.tabMisc);
+        this.setCreativeTab(CreativeTabHB.HB_TAB);
     }
 
     public BlockHB(){
