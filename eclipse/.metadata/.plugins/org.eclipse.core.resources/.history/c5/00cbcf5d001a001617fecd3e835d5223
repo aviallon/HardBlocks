@@ -1,8 +1,0 @@
-package com.aviallon.hardblocks.init;
-
-import com.aviallon.hardblocks.item.ItemMapleLeaf;
-import com.aviallon.hardblocks.item.ItemHB;
-
-public class ModItems {
-	public static final ItemHB mapleLeaf = new ItemMapleLeaf();
-}

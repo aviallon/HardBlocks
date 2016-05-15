@@ -1,7 +1,0 @@
-package com.aviallon.hardblocks.item;
-
-import net.minecraft.item.Item;
-
-public class ItemHB extends Item {
-	public 
-}
