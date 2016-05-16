@@ -12,7 +12,7 @@ public class BlockHardenedRock extends BlockHB {
         this.setBlockName("hardenedRock");
         this.setHardness(5);
         this.setResistance(20);
-        //this.setHarvestLevel("pickaxe", 0);
+        this.setHarvestLevel("pickaxe", 2);
         this.setCreativeTab(CreativeTabHB.HB_TAB);
     }
 }

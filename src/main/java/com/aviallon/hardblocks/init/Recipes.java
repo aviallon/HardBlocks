@@ -13,6 +13,6 @@ import static net.minecraft.init.Blocks.obsidian;
  */
 public class Recipes {
     public static void init(){
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.hardenedRock), "sss", "sis", "sss", 's', "cobblestone", 'i', "ingotIron"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.hardenedRock, 4), "sss", "sis", "sss", 's', "cobblestone", 'i', "ingotIron"));
     }
 }
