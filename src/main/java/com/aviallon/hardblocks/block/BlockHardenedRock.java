@@ -11,7 +11,7 @@ public class BlockHardenedRock extends BlockHB {
         super();
         this.setBlockName("hardenedRock");
         this.setHardness(5);
-        this.setResistance(ConfigurationHandler.hardRockResistance);
+        this.setResistance(20);
         //this.setHarvestLevel("pickaxe", 0);
         this.setCreativeTab(CreativeTabHB.HB_TAB);
     }

@@ -11,7 +11,7 @@ public class ConfigurationHandler
 {
     public static Configuration configuration;
     //public static boolean testValue = false;
-    public static int hardRockResistance = 30;
+    public static float hardRockResistance = 30f;
 
     public static void init(File configFile)
     {
@@ -25,7 +25,7 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        hardRockResistance = configuration.getInt("hardRockResistance", Configuration.CATEGORY_GENERAL, 30, 10, 100, "Set the hardened rock resistance.");
+        hardRockResistance = configuration.getFloat("hardRockResistance", Configuration.CATEGORY_GENERAL, 30f, 10f, 100f, "Set the hardened rock resistance.");
         //testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
 
         if (configuration.hasChanged())
