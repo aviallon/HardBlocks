@@ -1,5 +1,6 @@
 package com.aviallon.hardblocks;
 
+import com.aviallon.hardblocks.client.handler.KeyInputEventHandler;
 import com.aviallon.hardblocks.handler.ConfigurationHandler;
 import com.aviallon.hardblocks.init.ModBlocks;
 import com.aviallon.hardblocks.init.ModItems;
@@ -28,7 +29,11 @@ public class HardBlocks {
 		
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+		proxy.registerKeyBindings();
+
 		ModItems.init();
+
 		ModBlocks.init();
 		
 		LogHelper.info("Pre Initialization Complete!");
@@ -37,6 +42,9 @@ public class HardBlocks {
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event){
 		Recipes.init();
+
+		FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+
 		LogHelper.info("Initialization Complete!");
 	}
 	
