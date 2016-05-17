@@ -10,6 +10,6 @@ import net.minecraftforge.oredict.ShapedOreRecipe;
 public class Recipes {
     public static void init(){
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.hardenedRock, 4), "sss", "sis", "sss", 's', "cobblestone", 'i', "ingotIron"));
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.hardenedRockPickaxe, 1), "hhh", " s ", " s ", 'h', ModBlocks.hardenedRock, 'i', "stick"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.hardenedRockPickaxe, 1), "hhh", " s ", " s ", 'h', ModBlocks.hardenedRock, 's', "stickWood"));
     }
 }
