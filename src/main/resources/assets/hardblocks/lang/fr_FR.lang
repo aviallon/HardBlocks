@@ -1,4 +1,12 @@
+# Items
 #item.hardblocks:mapleLeaf.name=Feuille d'Érable
 #item.hardblocks:appletreeLeaf.name=Feuille de Pommier
+
+# Blocks
 tile.hardblocks:hardenedRock.name=Pierre consolidée
+
+# Creative Tabs
 itemGroup.hardblocks=Blocs Incassables
+
+# Tools
+item.hardblocks:hardenedRockPickaxe.name=Pioche en pierre renforcée

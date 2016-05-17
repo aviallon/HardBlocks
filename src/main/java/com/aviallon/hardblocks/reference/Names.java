@@ -4,18 +4,18 @@ public final class Names
 {
     public static final class Items
     {
-        public static final String MAPLE_LEAF = "mapleLeaf";
+        public static final String HARDENED_ROCK_PICKAXE = "hardenedRockPickaxe";
     }
 
     public static final class Blocks
     {
-        public static final String FLAG = "flag";
+        public static final String HARDENED_ROCK = "hardenedRock";
     }
 
     public static final class Keys
     {
-        public static final String CATEGORY = "keys.letsmodreboot.category";
-        public static final String CHARGE = "keys.letsmodreboot.charge";
-        public static final String RELEASE = "keys.letsmodreboot.release";
+        public static final String CATEGORY = "keys."+Reference.MOD_ID.toLowerCase()+".category";
+        public static final String CHARGE = "keys."+Reference.MOD_ID.toLowerCase()+".charge";
+        public static final String RELEASE = "keys."+Reference.MOD_ID.toLowerCase()+".release";
     }
 }
