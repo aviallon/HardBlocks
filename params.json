@@ -1,0 +1,6 @@
+{
+  "name": "Hardblocks",
+  "tagline": "A 1.7.10 mod for Minecraft that adds several explosion resistant blocks and items",
+  "body": "# HardBlocks\r\nThis is a mod that adds several blocks :\r\n- **Hardened Rock** : A rock that can resist to a creeper explosion\r\n- **Hardened Rock Pickaxe** : A hardened pickaxe that have a big durablility (1000). Also, it can harvest the same blocks as an iron pickaxe.\r\n- Reinforced Rock : A rock that can resist to a TNT explosion (NOT IMPLEMENTED YET)\r\n- Non-flamable wood : Everything is in the name... (NOT IMPLEMENTED YET)\r\n\r\nand their respective recipes :\r\n### Hardened Rock :\r\n![Recipe](http://minecraftrecipedesigner.com/creations/172913.png)\r\nS|S|S S|I|S S|S|S\r\n\r\nwith S for cobblestone and I for iron ingot.\r\n### Hardened Rock Pickaxe :\r\n\r\nH|H|H\r\n\r\n-|S|-\r\n\r\n-|S|-\r\n\r\nwith H for hardened rock and S for wooden stick.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
