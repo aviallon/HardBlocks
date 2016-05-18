@@ -9,6 +9,7 @@ keys.hardblocks.release=Release
 
 # Blocks
 tile.hardblocks:hardenedRock.name=Hardened Rock
+tile.hardblocks:reinforcedRock.name=Reinforced Rock
 
 # Creative Tabs
 itemGroup.hardblocks=Hard Blocks
