@@ -10,6 +10,7 @@ keys.hardblocks.release=Release
 # Blocks
 tile.hardblocks:hardenedRock.name=Hardened Rock
 tile.hardblocks:reinforcedRock.name=Reinforced Rock
+tile.hardblocks:nonflammableWood.name=Non-flammable Wood
 
 # Creative Tabs
 itemGroup.hardblocks=Hard Blocks
