@@ -1,9 +1,16 @@
+# Keys
+keys.hardblocks.category=Blocs Incassables
+keys.hardblocks.charge=Charge
+keys.hardblocks.release=Relâcher
+
 # Items
 #item.hardblocks:mapleLeaf.name=Feuille d'Érable
 #item.hardblocks:appletreeLeaf.name=Feuille de Pommier
 
 # Blocks
 tile.hardblocks:hardenedRock.name=Pierre consolidée
+tile.hardblocks:reinforcedRock.name=Roche ultradure
+tile.hardblocks:nonflammableWood.name=Bois ignifugé
 
 # Creative Tabs
 itemGroup.hardblocks=Blocs Incassables

@@ -1,8 +1,8 @@
 # HardBlocks
-This is a mod - not working right now, wait a little bit pls - that adds several blocks :
+This is a mod that adds several blocks :
 - **Hardened Rock** : A rock that can resist to a creeper explosion
 - **Hardened Rock Pickaxe** : A hardened pickaxe that have a big durablility (1000). Also, it can harvest the same blocks as an iron pickaxe.
-- Reinforced Rock : A rock that can resist to a TNT explosion (NOT IMPLEMENTED YET)
+- **Reinforced Rock** : A rock that can resist to a TNT explosion
 - Non-flamable wood : Everything is in the name... (NOT IMPLEMENTED YET)
 
 and their respective recipes :
@@ -26,3 +26,5 @@ H|H|H
 -|S|-
 
 with H for hardened rock and S for wooden stick.
+
+See the recipes for the other blocks and items on the website http://aviallon.github.io/HardBlocks/
