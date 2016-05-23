@@ -2,8 +2,8 @@ package com.aviallon.hardblocks.item;
 
 import com.aviallon.hardblocks.creativetab.CreativeTabHB;
 import com.aviallon.hardblocks.reference.Reference;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemStack;

@@ -5,7 +5,7 @@ import com.aviallon.hardblocks.block.BlockHardenedRock;
 import com.aviallon.hardblocks.block.BlockNonflammableWood;
 import com.aviallon.hardblocks.block.BlockReinforcedRock;
 import com.aviallon.hardblocks.reference.Reference;
-import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
 

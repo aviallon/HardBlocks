@@ -3,8 +3,8 @@ package com.aviallon.hardblocks.client.handler;
 import com.aviallon.hardblocks.client.settings.KeyBindings;
 import com.aviallon.hardblocks.reference.Key;
 import com.aviallon.hardblocks.utility.LogHelper;
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import cpw.mods.fml.common.gameevent.InputEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.gameevent.InputEvent;
 
 /**
  * Created by antoineviallon on 17/05/2016.

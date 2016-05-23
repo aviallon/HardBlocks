@@ -1,7 +1,7 @@
 package com.aviallon.hardblocks.proxy;
 
 import com.aviallon.hardblocks.client.settings.KeyBindings;
-import cpw.mods.fml.client.registry.ClientRegistry;
+import net.minecraftforge.fml.client.registry.ClientRegistry;
 
 public class ClientProxy extends CommonProxy{
 

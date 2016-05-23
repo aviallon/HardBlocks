@@ -2,7 +2,7 @@ package com.aviallon.hardblocks.init;
 
 import com.aviallon.hardblocks.item.ItemHBPickaxe;
 import com.aviallon.hardblocks.item.ItemhardenedRockPickaxe;
-import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
 	public static final ItemHBPickaxe hardenedRockPickaxe = new ItemhardenedRockPickaxe();
