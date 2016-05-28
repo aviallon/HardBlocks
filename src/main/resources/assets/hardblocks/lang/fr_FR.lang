@@ -8,7 +8,7 @@ keys.hardblocks.release=Relâcher
 #item.hardblocks:appletreeLeaf.name=Feuille de Pommier
 
 # Blocks
-tile.hardblocks:hardenedRock.name=Pierre consolidée
+tile.hardenedRock.name=Pierre consolidée
 tile.hardblocks:reinforcedRock.name=Roche ultradure
 tile.hardblocks:nonflammableWood.name=Bois ignifugé
 

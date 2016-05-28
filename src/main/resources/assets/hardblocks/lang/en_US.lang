@@ -8,7 +8,7 @@ keys.hardblocks.release=Release
 #item.hardblocks:appletreeLeaf.name=Appletree Leaf
 
 # Blocks
-tile.hardblocks:hardenedRock.name=Hardened Rock
+tile.hardenedRock.name=Hardened Rock
 tile.hardblocks:reinforcedRock.name=Reinforced Rock
 tile.hardblocks:nonflammableWood.name=Non-flammable Wood
 

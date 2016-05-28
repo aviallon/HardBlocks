@@ -50,7 +50,7 @@ public class HardBlocks {
 	
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event){
-		
 		LogHelper.info("Post Initialization Complete!");
 	}
+	public static String prependModID(String name) {return Reference.MOD_ID + ":" + name;}
 }
