@@ -9,7 +9,7 @@ import net.minecraft.block.material.Material;
 public class BlockHardenedRock extends BlockHB {
     public BlockHardenedRock(){
         super(Material.rock);
-        this.setBlockName("hardenedRock");
+        this.setUnlocalizedName("hardenedRock");
         this.setHardness(5);
         this.setResistance(20);
         this.setHarvestLevel("pickaxe", 2);

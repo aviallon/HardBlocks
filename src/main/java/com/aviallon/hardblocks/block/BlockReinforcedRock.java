@@ -8,7 +8,7 @@ import com.aviallon.hardblocks.creativetab.CreativeTabHB;
 public class BlockReinforcedRock extends BlockHB {
     public BlockReinforcedRock(){
         super();
-        this.setBlockName("reinforcedRock");
+        this.setUnlocalizedName("reinforcedRock");
         this.setHardness(10);
         this.setResistance(40);
         this.setHarvestLevel("pickaxe", 3);
