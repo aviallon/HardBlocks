@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hardblocks:blocks/nonflammableWood",
+    "up": "hardblocks:blocks/nonflammableWood",
+    "north": "hardblocks:blocks/nonflammableWood",
+    "east": "hardblocks:blocks/nonflammableWood",
+    "south": "hardblocks:blocks/nonflammableWood",
+    "west": "hardblocks:blocks/nonflammableWood",
+    "particle": "blocks/lapis_block"
+  }
+}

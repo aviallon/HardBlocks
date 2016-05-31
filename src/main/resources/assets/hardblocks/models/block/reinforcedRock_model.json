@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hardblocks:blocks/reinforcedRock",
+    "up": "hardblocks:blocks/reinforcedRock",
+    "north": "hardblocks:blocks/reinforcedRock",
+    "east": "hardblocks:blocks/reinforcedRock",
+    "south": "hardblocks:blocks/reinforcedRock",
+    "west": "hardblocks:blocks/reinforcedRock",
+    "particle": "blocks/lapis_block"
+  }
+}

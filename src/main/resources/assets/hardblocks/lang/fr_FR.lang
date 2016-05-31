@@ -9,8 +9,8 @@ keys.hardblocks.release=Relâcher
 
 # Blocks
 tile.hardenedRock.name=Pierre consolidée
-tile.hardblocks:reinforcedRock.name=Roche ultradure
-tile.hardblocks:nonflammableWood.name=Bois ignifugé
+tile.reinforcedRock.name=Roche ultradure
+tile.nonflammableWood.name=Bois ignifugé
 
 # Creative Tabs
 itemGroup.hardblocks=Blocs Incassables
