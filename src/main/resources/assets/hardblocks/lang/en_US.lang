@@ -1,19 +1,15 @@
-# Keys
-keys.hardblocks.category=Hard Blocks
-keys.hardblocks.charge=Charge
-keys.hardblocks.release=Release
-
-# Items
-#item.hardblocks:mapleLeaf.name=Maple Leaf
-#item.hardblocks:appletreeLeaf.name=Appletree Leaf
-
-# Blocks
-tile.hardenedRock.name=Hardened Rock
-tile.reinforcedRock.name=Reinforced Rock
-tile.nonflammableWood.name=Non-flammable Wood
-
 # Creative Tabs
-itemGroup.hardblocks=Hard Blocks
+itemGroup.hardblocks=HardBlocks
 
-#Tools
-item.hardblocks:hardenedRockPickaxe.name=Hardened Rock Pickaxe
+tile.hardenedRock.name=Hardened Rock
+
+# GUIs
+container.ee3:calciner=Calciner
+
+# NEI
+gui.nei.ee3:calcination=Calcination
+gui.nei.ee3:calcination.tooltip.1=Energy values needed to calcine
+gui.nei.ee3:calcination.tooltip.2=From %s to %s
+
+# Commands
+commands.ee3.usage=/hardblocks

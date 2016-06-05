@@ -1,56 +1,55 @@
 package com.aviallon.hardblocks;
 
-import com.aviallon.hardblocks.client.handler.KeyInputEventHandler;
-import com.aviallon.hardblocks.handler.ConfigurationHandler;
-import com.aviallon.hardblocks.init.ModBlocks;
-import com.aviallon.hardblocks.init.ModItems;
-import com.aviallon.hardblocks.init.Recipes;
 import com.aviallon.hardblocks.proxy.IProxy;
 import com.aviallon.hardblocks.reference.Reference;
-import com.aviallon.hardblocks.utility.LogHelper;
-import net.minecraftforge.fml.common.FMLCommonHandler;
+import com.aviallon.hardblocks.util.helper.LogHelper;
+import com.aviallon.hardblocks.reference.Messages;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.*;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version=Reference.VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, certificateFingerprint = Reference.FINGERPRINT, version = Reference.MOD_VERSION, dependencies = Reference.DEPENDENCIES, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class HardBlocks {
-	@Mod.Instance("HardBlocks")
-	public static HardBlocks instance;
-	
-	@SidedProxy(clientSide = "com.aviallon.hardblocks.proxy.ClientProxy", serverSide = "com.aviallon.hardblocks.proxy.ServerProxy")
-	public static IProxy proxy;
-	
-	@Mod.EventHandler
-	public void preInit(FMLPreInitializationEvent event){
-		LogHelper.info("Welcome to Hardblocks :) Thanks for using this mod.");
-		
-		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
-		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
-		proxy.registerKeyBindings();
+    @Instance(Reference.MOD_ID)
+    public static HardBlocks instance;
 
-		ModItems.init();
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+    public static IProxy proxy;
 
-		ModBlocks.init();
-		
-		LogHelper.info("Pre Initialization Complete!");
-	}
-	
-	@Mod.EventHandler
-	public void init(FMLInitializationEvent event){
-		Recipes.init();
+    @EventHandler
+    public void invalidFingerprint(FMLFingerprintViolationEvent event) {
+        if (Reference.FINGERPRINT.equals("@FINGERPRINT@")) {
+            LogHelper.info(Messages.NO_FINGERPRINT_MESSAGE);
+        } else {
+            LogHelper.warn(Messages.INVALID_FINGERPRINT_MESSAGE);
+        }
+    }
 
-		FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+    @EventHandler
+    public void onServerStarting(FMLServerStartingEvent event) {
+        proxy.onServerStarting(event);
+    }
 
-		LogHelper.info("Initialization Complete!");
-	}
-	
-	@Mod.EventHandler
-	public void postInit(FMLPostInitializationEvent event){
-		LogHelper.info("Post Initialization Complete!");
-	}
-	public static String prependModID(String name) {return Reference.MOD_ID + ":" + name;}
+    @EventHandler
+    public void preInit(FMLPreInitializationEvent event) {
+        proxy.onPreInit(event);
+    }
+
+    @EventHandler
+    public void init(FMLInitializationEvent event) {
+        proxy.onInit(event);
+    }
+
+    @EventHandler
+    public void postInit(FMLPostInitializationEvent event) {
+        proxy.onPostInit(event);
+    }
+
+    @EventHandler
+    public void onServerStopping(FMLServerStoppingEvent event) {
+        proxy.onServerStopping(event);
+    }
 }

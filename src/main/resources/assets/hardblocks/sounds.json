@@ -1,0 +1,11 @@
+{
+    "chargeDown": {
+        "category": "master",
+        "sounds": [
+            {
+                "name": "chargeDown",
+                "stream": false
+            }
+        ]
+    }
+}
