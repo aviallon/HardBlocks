@@ -18,12 +18,13 @@ public class BlockHardenedRock extends BlockHB {
 
     public BlockHardenedRock() {
         super(NAME);
+        this.setHardness(3f);
     }
 
     @Override
     @SideOnly(Side.CLIENT)
     public boolean shouldSideBeRendered(IBlockState blockState, IBlockAccess blockAccess, BlockPos pos, EnumFacing side) {
-        return false;
+        return true;
     }
 
     @Override

@@ -17,13 +17,15 @@ public class BlockReinforcedRock extends BlockHB {
     private float Resistance = 20f;
 
     public BlockReinforcedRock() {
+
         super(NAME);
+        this.setHardness(4f);
     }
 
     @Override
     @SideOnly(Side.CLIENT)
     public boolean shouldSideBeRendered(IBlockState blockState, IBlockAccess blockAccess, BlockPos pos, EnumFacing side) {
-        return false;
+        return true;
     }
 
     @Override

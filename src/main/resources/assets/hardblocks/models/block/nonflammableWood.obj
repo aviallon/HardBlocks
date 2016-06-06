@@ -1,6 +1,6 @@
 # Blender v2.77 (sub 0) OBJ File: 'cube.blend'
 # www.blender.org
-mtllib hardenedRock.mtl
+mtllib nonflammableWood.mtl
 o Cube
 v 0.999683 0.000024 -0.000433
 v 0.999683 0.000024 0.999567

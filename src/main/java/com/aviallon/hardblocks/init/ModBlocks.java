@@ -1,6 +1,7 @@
 package com.aviallon.hardblocks.init;
 
 import com.aviallon.hardblocks.block.BlockHardenedRock;
+import com.aviallon.hardblocks.block.BlockNonflammableWood;
 import com.aviallon.hardblocks.block.BlockReinforcedRock;
 import com.aviallon.hardblocks.block.base.BlockHB;
 import net.minecraft.item.ItemBlock;
@@ -17,6 +18,7 @@ public class ModBlocks {
 
     public static final BlockHB hardenedRock = new BlockHardenedRock();
     public static final BlockHB reinforcedRock = new BlockReinforcedRock();
+    public static final BlockHB nonflammableWood = new BlockNonflammableWood();
 
     public static void register() {
 
