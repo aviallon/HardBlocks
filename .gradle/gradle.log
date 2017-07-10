@@ -1,5 +1,7 @@
+This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.
+
 #################################################
-         ForgeGradle 2.1-SNAPSHOT-da90449        
+         ForgeGradle 2.2-SNAPSHOT-f0ba31b        
   https://github.com/MinecraftForge/ForgeGradle  
 #################################################
                Powered by MCP unknown               
@@ -7,13 +9,7 @@
          by: Searge, ProfMobius, Fesh0r,         
          R4wk, ZeuX, IngisKahn, bspkrs           
 #################################################
-:deobfCompileDummyTask
-:deobfProvidedDummyTask
-:ideaModule
-:ideaProject
-:ideaWorkspace
-:idea
 
-BUILD SUCCESSFUL
+CONFIGURE SUCCESSFUL
 
-Total time: 11.115 secs
+Total time: 41.795 secs

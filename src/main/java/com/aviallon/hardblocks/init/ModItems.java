@@ -1,7 +1,6 @@
 package com.aviallon.hardblocks.init;
 
 import com.aviallon.hardblocks.item.ItemHardenedRock;
-import com.aviallon.hardblocks.item.base.ItemHB;
 import net.minecraft.client.renderer.color.IItemColor;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.client.FMLClientHandler;

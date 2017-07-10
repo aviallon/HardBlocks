@@ -1,12 +1,13 @@
 package com.aviallon.hardblocks.item;
 
-import com.aviallon.hardblocks.item.base.ItemHB;
+import net.minecraft.item.Item;
 
-public class ItemHardenedRock extends ItemHB {
+public class ItemHardenedRock extends Item {
 
-    private static final String NAME = "hardenedRockTEST";
+    //private static final String NAME = "hardenedRockTEST";
 
     public ItemHardenedRock() {
-        super(NAME);
+        super();
+        this.setRegistryName(Names.)
     }
 }
