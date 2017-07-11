@@ -1,43 +1,27 @@
 package com.aviallon.hardblocks.init;
 
-import com.aviallon.hardblocks.item.ItemHardenedRock;
-import net.minecraft.client.renderer.color.IItemColor;
-import net.minecraft.item.ItemStack;
-import net.minecraftforge.fml.client.FMLClientHandler;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
-
-import java.util.ArrayList;
-import java.util.List;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
 
 public class ModItems {
 
-    public static final List<ItemHB> ITEMS = new ArrayList<>();
+    //public static Item hardenedRock;
 
-    public static final ItemHB hardenedRock = new ItemHardenedRock();
+    public static void init() {
+        //hardenedRock = new ItemHardenedRock();
+    }
 
     public static void register() {
-        GameRegistry.register(hardenedRock);
+        //GameRegistry.register(hardenedRock);
     }
 
-    @SideOnly(Side.CLIENT)
-    public static void initModelsAndVariants() {
-        ITEMS.forEach(ItemHB::initModelsAndVariants);
+    public static void registerRenders() {
+        //registerRenders(hardenedRock);
     }
 
-    @SideOnly(Side.CLIENT)
-    public static void registerItemColors() {
-
-        for (ItemHB itemHB : ITEMS) {
-            if (itemHB instanceof IItemColor) {
-                FMLClientHandler.instance().getClient().getItemColors().registerItemColorHandler(new IItemColor() {
-                    @Override
-                    public int getColorFromItemstack(ItemStack itemStack, int tintIndex) {
-                        return ((IItemColor) itemHB).getColorFromItemstack(itemStack, tintIndex);
-                    }
-                }, itemHB);
-            }
-        }
+    private static void registerRenders(Item item) {
+        Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(item.getRegistryName(),"inventory"));
     }
+
 }

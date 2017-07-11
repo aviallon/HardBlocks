@@ -2,14 +2,12 @@
 itemGroup.hardblocks=HardBlocks
 
 tile.hardenedRock.name=Hardened Rock
+tile.reinforcedRock.name=Reinforced Rock
+tile.nonflammableWood.name=Nonflammable Wood
 
 # GUIs
-container.ee3:calciner=Calciner
 
 # NEI
-gui.nei.ee3:calcination=Calcination
-gui.nei.ee3:calcination.tooltip.1=Energy values needed to calcine
-gui.nei.ee3:calcination.tooltip.2=From %s to %s
 
 # Commands
-commands.ee3.usage=/hardblocks
+commands.hardblocks.usage=/hardblocks

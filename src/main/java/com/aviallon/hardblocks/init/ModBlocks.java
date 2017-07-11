@@ -3,33 +3,46 @@ package com.aviallon.hardblocks.init;
 import com.aviallon.hardblocks.block.BlockHardenedRock;
 import com.aviallon.hardblocks.block.BlockNonflammableWood;
 import com.aviallon.hardblocks.block.BlockReinforcedRock;
-import com.aviallon.hardblocks.block.base.BlockHB;
+import net.minecraft.block.Block;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class ModBlocks {
 
-    public static final List<BlockHB> BLOCKS = new ArrayList<>();
+    public static Block hardenedRock;
+    public static Block nonflammableWood;
+    public static Block reinforcedRock;
 
-    public static final BlockHB hardenedRock = new BlockHardenedRock();
-    public static final BlockHB reinforcedRock = new BlockReinforcedRock();
-    public static final BlockHB nonflammableWood = new BlockNonflammableWood();
-
-    public static void register() {
-
-        for (BlockHB blockHB : BLOCKS) {
-            GameRegistry.register(blockHB);
-            GameRegistry.register(new ItemBlock(blockHB).setRegistryName(blockHB.getRegistryName()));
-        }
+    public static void init() {
+        hardenedRock = new BlockHardenedRock();
+        nonflammableWood = new BlockNonflammableWood();
+        reinforcedRock = new BlockReinforcedRock();
     }
 
-    @SideOnly(Side.CLIENT)
-    public static void initModelsAndVariants() {
-        BLOCKS.forEach(BlockHB::initModelsAndVariants);
+    public static void register() {
+        registerBlock(hardenedRock);
+        registerBlock(nonflammableWood);
+        registerBlock(reinforcedRock);
+    }
+
+    private static void registerBlock(Block block){
+        GameRegistry.register(block);
+
+        ItemBlock item = new ItemBlock(block);
+        item.setRegistryName(block.getRegistryName());
+        GameRegistry.register(item);
+    }
+
+    public static void registerRenders() {
+        registerRenders(hardenedRock);
+        registerRenders(nonflammableWood);
+        registerRenders(reinforcedRock);
+    }
+
+    private static void registerRenders(Block block) {
+        Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(block), 0, new ModelResourceLocation(Item.getItemFromBlock(block).getRegistryName(),"inventory"));
     }
 }
